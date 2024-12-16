@@ -1,0 +1,194 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 10px;
+}
+body{
+    font-family: "Lato", serif;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.5;
+    background-color: #fff;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-weight: 700;
+    font-family: "Montserrat", serif;
+}
+
+nav{
+    font-family: "Montserrat", serif;
+    background-color: #2C3E4F;
+    color: #fff;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+a{
+    text-decoration: none;
+}
+.text-uppercase{
+    text-transform: uppercase;
+}
+.container{
+    text-align: center;
+    height: 700px;
+
+}
+#logo-box .logo{
+    font-family: "Montserrat", serif;
+    font-weight: 700;
+    font-size: 3rem;
+    padding: 3rem;
+    color: #fff;
+}
+header{
+    height: 800px;
+    background-color: #19BC9B;
+    padding-top: calc(106px + 6rem);
+    text-align: center;
+}
+
+header h1{
+    color: white;
+    font-size: 6rem;
+}
+
+header h2{
+    color: white;
+    font-size: 2.4rem;
+    font-weight: 700;
+    font-family: "lato", serif;
+}
+
+.star-light{
+    border: none;
+    border-top: 0.4rem solid #fff;
+    padding: 0.5rem;
+    max-width: 25rem;
+    margin: 2.5rem auto;
+    overflow: visible;
+}
+.star-dark{
+    border: none;
+    border-top: 0.4rem solid black;
+    padding: 0.5rem;
+    max-width: 25rem;
+    margin: 2.5rem auto;
+    overflow: visible;
+}
+.star-light:after{
+    content: "\2605";
+    color: white;
+    font-weight: 900;
+    font-size: 3.2rem;
+    top: -30px;
+    padding: 0 8px;
+    position: relative;
+    background-color: #19BC9B;
+}
+.star-dark:after{
+    content: "\2605";
+    color: black;
+    font-weight: 900;
+    font-size: 3.2rem;
+    top: -30px;
+    padding: 0 8px;
+    position: relative;
+    background-color: #403A35;
+}
+
+.img-head{
+    width: 30rem;
+    height: auto;
+
+}
+
+.img-fluid{
+    width: 100%;
+    height: 300px;
+    padding: 5px;
+    border-radius: 60px;
+}
+.img-fluid:hover{
+    opacity: 0.5;
+    transition: 1s;
+}
+
+#portfolio{
+    height: 1140px;
+    text-align: center;
+    font-size: 3rem;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+    background-color: #403A35;
+    color: #fff;
+}
+.text{
+    text-align: left;
+    padding: 3rem;
+}
+.col{
+    float: left;
+    width: 33.333%;
+    height: 300px;
+    padding: 10px;
+
+}
+.portfolio-item{
+    height: 300px;
+
+
+
+}
+
+#contact{
+    font-size: 3rem;
+    padding-top: 0;
+    color: white;
+}
+section .bg-image{
+    position: absolute;
+    background-image:url("images/duvarkagidim.png");
+    background-position: center;
+    padding: 0;
+    margin: 0;
+    height: 800px;
+    width: 100%;
+    opacity: 1;
+    z-index: -1;
+}
+#e{
+    width: 100%;
+    height: auto;
+    padding: 0;
+    margin: 0;
+}
+.s{
+    float: left;
+}
+@media (max-width: 940px){
+
+    .s{
+        padding: 3rem;
+    }
+    h2{
+        padding-top: 5rem;
+    }
+
+
+}
+.btn{
+    background-color: dimgray;
+    color: #fff;
+    border: solid 1px dimgray;
+    padding: 1.6rem 3.2rem;
+    border-radius: 3rem;
+    margin: 2rem;
+}
+.btn:hover{
+    background-color: darkorange;
+    transition: all 0.5s;
+}
